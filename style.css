@@ -1,0 +1,83 @@
+/* Reset default margins and set the background color */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d1d5db; /* Light grey background */
+    color: #000000;
+}
+
+/* Header styling */
+header {
+    background-color: #0000ff; /* Solid blue background */
+    color: #ffffff;            /* White text */
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Main content wrapper */
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* White card styling for sections */
+section {
+    background-color: #ffffff; /* White block background */
+    border-radius: 12px;       /* Smooth rounded corners */
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow around cards */
+}
+
+/* Headings inside sections */
+section h2 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Paragraph and list item styling */
+section p, section li {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Biography specific layout */
+.biography img {
+    display: block;
+    border-radius: 4px; /* Slight round to the image corners */
+    object-fit: cover;
+}
+
+/* List spacing for Achievements */
+.achievements ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.achievements li {
+    margin-bottom: 8px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #0000ff; /* Solid blue background */
+    color: #ffffff;            /* White text */
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 13px;
+}
